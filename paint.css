@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin:0;
+    position: absolute;
+    cursor:pointer;
+}
+body {
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:0;
+}
+#draw{
+    background-color: rgb(249 249 249);
+    width: 50vw;
+    height: 58vh;
+    top: 7vh;
+    margin: 0 25vw;
+    border: 0.7vw solid lightgrey;
+    border-radius: 2vw;
+}
+#fp,#fp1,#fp2,#fp3,#fp4,#fp5,#fp6,#fp7,#fp8,#fp9,#fp10,#fp11{
+    width: 7vw;
+    height: 19vh;
+    top: 10vh;
+    left: 23vw;
+}
+#fp11{    transform: rotate(344deg);
+    left: 21.4vw;
+    top: 11.3vh;}
+#fp10{
+    transform: rotate(309deg);
+    left: 19.4vw;
+    top: 13.3vh;
+}
+#fp9{transform: rotate(284deg);
+    left: 17.8vw;
+    top: 18vh;}
+#fp8{    transform: rotate(260deg);
+    left: 17.8vw;
+    top: 23vh;}
+#fp7{    transform: rotate(228deg);
+    left: 18.8vw;
+    top: 28vh;}
+#fp6{
+    transform: rotate(189deg);
+    left: 21vw;
+    top: 30vh;
+}
+#fp5{
+    transform: rotate(156deg);
+    left: 24vw;
+    top: 30vh;
+}
+#fp4{    transform: rotate(121deg);
+    left: 26vw;
+    top: 27vh;}
+    #fp3{
+        transform: rotate(94deg);
+        left: 27vw;
+        top: 23vh;
+    }
+    #fp2{
+        transform: rotate(62deg);
+        left: 27vw;
+        top: 18vh;
+    }
+#fp1{
+    transform: rotate(38deg);
+    left: 26vw;
+    top: 13vh;
+}
+#fp{    transform: rotate(10deg);
+    left: 23.4vw;
+    top: 11.3vh;}
+#fc{
+    width: 5vw;
+    height: 10vh;
+    top: 25.5vh;
+    left: 23.7vw;
+    z-index: 1;
+}
+#colors{
+    width: 80vw;
+    bottom: 10vh;
+    height: 10vh;
+    margin: 0 10vw;
+    background-color: rgb(245 245 245);
+    text-shadow: 2px 2px #d9d9d9;
+    font-size: 1.4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+}
+#colors p {    left: 2vw;}
+#colors span{
+    border: 2px solid rgb(249 249 249);
+    border-radius: 3vw;
+    width:5vw;
+    height:5vh;  
+}
+#color1{left: 14vw;background-color: cornflowerblue;}
+#color2{left: 21vw;background-color: #ff4a4a;}#color3{left: 29vw;background-color: #fcff4a;}#color4{left: 37vw;background-color: #ff744a;}#color5{left: 46vw;background-color: #66ff4a;}#color6{left: 55vw;background-color: #ff4ae9;}#color7{left: 64vw;background-color: #ff4a63;}#color8{left: 72vw;    background-color: #4ae6ff;}
